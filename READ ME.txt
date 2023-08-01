@@ -1,0 +1,21 @@
+This is a simple password generator using python.
+
+--GUI is created using Tkinter library 
+--The database is accessed using sqlite3 library
+--The picture is added using ImageTk library
+  (You need to download the image and place in your project folder)
+
+You are required to install these libraries in order to use this generator.
+
+HOW TO GENERATE PASSWORD:
+
+1) Enter your local username.
+2) Enter the length of password ( IT SHOULD NOT BE LESS THAN 4)
+3) Click on GENERATE PASSWORD. (YOU CAN CLICK IT MULTIPLE TIMES FOR GENERATING DIFFERENT PASSWORDS)
+4) You can ACCEPT OR RESET as per your wish.
+
+THANK YOU.
+					
+
+ 
+
