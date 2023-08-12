@@ -14,7 +14,23 @@ HOW TO GENERATE PASSWORD:
 3) Click on GENERATE PASSWORD. (YOU CAN CLICK IT MULTIPLE TIMES FOR GENERATING DIFFERENT PASSWORDS)
 4) You can ACCEPT OR RESET as per your wish.
 
-THANK YOU.
+Let's break it down step by step:
+
+1) Importing Libraries: The code imports the necessary libraries, including string, random, tkinter, messagebox from tkinter, sqlite3, and ImageTk from PIL.
+
+2) Database Setup: The code connects to a SQLite database named "data.db" and creates a "users" table if it doesn't exist already. This table will store usernames and generated passwords.
+
+3) Initialization: Inside the __init__ method, the GUI's title, geometry, and background image are set.
+
+4) GUI Elements: The code sets up various labels, text fields, and buttons for user interactions. These elements include input fields for username and password length, an output field to show the generated password, and buttons for generating, accepting, and resetting passwords.
+
+5) Password Generation: The generate_pass method generates a password based on specific criteria (upper case, lower case, special characters, and numbers) and inserts it into the generated password text field.
+
+6) Accepting Fields: The accept_fields method checks if the entered username already exists in the database. If it does, an error message is shown. If not, the username and generated password are stored in the database.
+
+7) Reset Fields: The reset_fields method clears the input and output fields.
+
+8) Main Loop: The __name__ block initializes the main window, creates an instance of the GUI class, and starts the main event loop using root.mainloop().
 					
 
  
